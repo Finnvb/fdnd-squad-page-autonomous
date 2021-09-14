@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Titel{
+    display: flex;
+    color: aquamarine;
+    background-color: brown;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+    font-size: 2em;
+}
+
+body{
+    background-color:papayawhip;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    background-color: crimson;
+    width: 75%;
+    height: 400px;
+    margin: auto;
+    margin-top: 1em;
+}
+
+.test{
+
+
+ width: 600px;
+ height: 300px;
+ grid-column: 2/3;
+ grid-row: 2/3;
+
+}
+
+footer{
+
+display: flex;
+justify-content: center;
+background-color: darkcyan;
+margin: auto;
+color: white;
+font-size: 1em;
+padding: 50px;
+margin-top: 1em;
+
+}
